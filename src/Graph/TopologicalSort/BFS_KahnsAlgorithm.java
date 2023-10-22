@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Queue;
 
-public class KahnsAlgorithm {
+public class BFS_KahnsAlgorithm {
 
     public static int[] topoSort(int V, ArrayList<ArrayList<Integer>> adj) {
         Queue<Integer> q = new ArrayDeque<>();
